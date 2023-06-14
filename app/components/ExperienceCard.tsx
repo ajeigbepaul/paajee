@@ -7,7 +7,7 @@ type Props = { experience: Experiences };
 
 export default function ExperienceCard({ experience }: Props) {
   return (
-    <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 items-center w-[150px] md:w-[450px] snap-center bg-[#292929] hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden py-3">
+    <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 items-center w-[250px] md:w-[450px] snap-center bg-[#292929] hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden py-3">
       <motion.img
         src={urlFor(experience?.companyImage).url()}
         initial={{

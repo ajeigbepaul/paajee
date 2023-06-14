@@ -17,7 +17,7 @@ export default function Contact({}: Props) {
   };
   return (
     <main className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-16 uppercase tracking-[10px] text-gray-500 text-xl">
+      <h3 className="absolute top-24 md:top-16 uppercase tracking-[10px] text-gray-500 text-xl">
         Contact
       </h3>
       <div className="flex flex-col space-y-6">
